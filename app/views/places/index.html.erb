@@ -1,0 +1,20 @@
+<script>
+  $(function() {
+    var h1Element = $('h1');
+
+    h1Element.click(function() {
+      $.get( "https://passion1-jay-johnson.herokuapp.com/places",
+        function( data ) {
+          console.log(data);
+        });
+      
+
+
+
+    });
+    
+  });
+</script>
+
+<h1>hi</h1>
+
