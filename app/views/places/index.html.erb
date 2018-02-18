@@ -3,7 +3,7 @@
     var h1Element = $('h1');
 
     h1Element.click(function() {
-      $.get( "https://passion1-jay-johnson.herokuapp.com/places",
+      $.get( "http://passion1-jay-johnson.herokuapp.com/places",
         function( data ) {
           console.log(data);
         });
@@ -16,5 +16,11 @@
   });
 </script>
 
-<h1>hi</h1>
+<br />
+<div class="booyah-box col-10 offset-1 text-center">
+  <h1>Edward Snowden random leak generator</h1>
+  <%= image_tag "edward-snowden.jpg", class: "img-fluid center-img" %>
+</div>
+
+
 
